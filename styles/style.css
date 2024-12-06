@@ -80,18 +80,18 @@
 }
 
 .aligned-text {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
 .aligned-text_center {
   margin-top: 12px;
-  text-align: center;
+  justify-content: center;
 }
 
 .aligned-text_right {
   margin-top: 5px;
-  text-align: right;
+  justify-content: end;
 }
 
 .letter-spacing-extended {
@@ -99,7 +99,7 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: 60px;
+  letter-spacing: 0.6em;
 }
 
 .cover__description {

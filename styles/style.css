@@ -154,7 +154,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 25px;
+  gap: 1.6em;
 }
 
 .card-link {
@@ -163,9 +163,7 @@
   flex: 1;
   min-width: 310px;
   min-height: 563px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 31.8%;
 }
 
 .card-link:nth-child(1) {

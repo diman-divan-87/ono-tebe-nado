@@ -156,7 +156,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  grid-gap: 25px;
+  gap: 1.6em;
 }
 
 .card-link {
